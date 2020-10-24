@@ -8,3 +8,9 @@
 [remote "origin"]
 	url = https://github.com/balaji-githubstore/OpenEMRJagadesh.git
 	fetch = +refs/heads/*:refs/remotes/origin/*
+[remote "origin1"]
+	url = https://github.com/jagadeeswar86/OpenEmrNewDemo.git
+	fetch = +refs/heads/*:refs/remotes/origin1/*
+[branch "master"]
+	remote = origin1
+	merge = refs/heads/master
